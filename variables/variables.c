@@ -5,6 +5,7 @@ int main(int argc, char const *argv[])
     double castillo;
     double grandTotal;
 
+    //Si multiplico un double por un int y lo guardo en un int, este lo trunca
     grandTotal = 500.50;
     castillo = 10.5;
     printf("castillo=%.2f\n", castillo);
